@@ -1,0 +1,60 @@
+.login-form {
+  width: 400px;
+  margin: 30px auto;
+  border: 1px solid #eee;
+  padding: 20px;
+  box-shadow: 0 2px 3px #ccc;
+
+  // inputs
+  .inputs {
+    margin: 10px auto;
+
+    label {
+      display: block;
+      color: #4e4e4e;
+      margin-bottom: 6px;
+    }
+    
+    input {
+      font: inherit;
+      width: 100%;
+      padding: 6px 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+
+      &:focus {
+        outline: none;
+        border: 1px solid #41b883;
+        background-color: #eee;
+      }
+    }
+  }
+
+  // submit
+  .submit {
+    button {
+      background: #41b883;
+      border: 1px solid #41b883;
+      color: #fff;
+      padding: 10px 20px;
+      font: inherit;
+      cursor: pointer;
+      transition: background-color 0.1s ease-in-out;
+
+      &:hover,
+      &:active {
+        background-color: lighten(#41b883, 5%);
+        color: white;
+      }
+
+      &[disabled],
+      &[disabled]:hover,
+      &[disabled]:active {
+        border: 1px solid #ccc;
+        background-color: transparent;
+        color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  box-shadow: none !important;
+  border: none;
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}

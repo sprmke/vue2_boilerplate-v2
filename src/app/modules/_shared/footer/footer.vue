@@ -1,0 +1,12 @@
+<template>
+  <div>
+    
+  </div>
+</template>
+
+<script src="./footer.js"></script>
+
+<style lang="scss" scoped>
+  @import './footer.scss';
+</style>
+
