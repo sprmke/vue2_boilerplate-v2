@@ -17,7 +17,7 @@
           <div class="col px-0">
             <div class="row">
               <div class="col-lg-6">
-                <h1 class="display-3 text-white">Vue Boilerplate</h1>
+                <h1 class="display-3 text-white"><img class="w-10 mr-2" src="https://vuejs.org/images/logo.png" alt="Vue">Vue Boilerplate</h1>
                 <p class="lead  text-white">A boilterplate that lets you get started on developing Vue applications. It includes vuex, axios, forms and validation (vuelidate), authentication and route guards.</p>
                 <div class="btn-wrapper">
                   <a href="" class="btn btn-warning btn-icon mb-3 mb-sm-0">
