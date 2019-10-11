@@ -1,14 +1,16 @@
-// Vendors
-@import "./vendors/font-awesome/css/font-awesome.min.css";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+// vendors
+@import './vendors/argon/vendor/nucleo/css/nucleo.css';
+@import './vendors/argon/vendor/font-awesome/css/font-awesome.min.css';
 
 // Base
 @import './base/_base';
 
-// Components
-@import './components/_components';
-
-// Themes
-@import './themes/_themes';
-
 // Helpers
 @import './helpers/classes';
+
+// Theme
+@import './vendors/argon/scss/argon.scss';
+@import './themes/_themes';

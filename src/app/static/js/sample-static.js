@@ -1,8 +1,17 @@
 export const sampleStatic = {
-  sampleStaticMethod1() {
-    return 'Sample return 1';
+  getSampleString() {
+    return 'Sample returned string';
   },
-  sampleStaticMethod2() {
-    return 'Sample return 2';
+  getSampleObject() {
+    return {
+      sample: 'returned object'
+    };
+  },
+  getSampleArray() {
+    return [
+      'sample returned object',
+      { sample: 'returned object' },
+      { sample: 'returned object' }
+    ];
   }
 }

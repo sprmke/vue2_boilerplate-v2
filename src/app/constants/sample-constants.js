@@ -1,5 +1,5 @@
 // file types
-export const FILETYPEICONLIST = {
+export const FILE_TYPE_ICON_LIST = {
   // files
   PDF: 'fa fa-file-pdf-o',
   DOC: 'fa fa-file-word-o',

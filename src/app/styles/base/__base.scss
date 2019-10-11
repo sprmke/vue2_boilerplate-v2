@@ -1,29 +1,18 @@
-// Base
-@import './reset';
-@import './typography';
-@import './responsiveness';
+// // Base
+// @import './reset';
+// @import './typography';
+// @import './responsiveness';
 
-// Components
-@import './components/buttons';
-@import './components/tables';
+// // Components
+// @import './components/buttons';
+// @import './components/tables';
 
-// Html
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-html {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  font-size: 16px;
-  line-height: 1.15px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+// // Html
+// html {
+// }
+// html, body {
+// }
 
-// Body 
-body {
-}
+// // Body 
+// body {
+// }
