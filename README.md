@@ -1,4 +1,4 @@
-# vue-boilterplate-v2
+# vue-boilterplate
 
 ## Project setup
 ```

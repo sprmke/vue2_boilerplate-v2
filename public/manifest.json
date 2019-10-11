@@ -1,6 +1,6 @@
 {
-  "name": "vue-boilterplate-v2",
-  "short_name": "vue-boilterplate-v2",
+  "name": "vue-boilterplate",
+  "short_name": "vue-boilterplate",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
