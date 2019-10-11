@@ -16,13 +16,13 @@
         <div class="container py-lg-md d-flex">
           <div class="col px-0">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-8">
                 <h1 class="display-3 text-white"><img class="w-10 mr-2" src="https://vuejs.org/images/logo.png" alt="Vue">Vue Boilerplate</h1>
-                <p class="lead  text-white">A boilterplate that lets you get started on developing Vue applications. It includes vuex, axios, forms and validation (vuelidate), authentication and route guards.</p>
+                <p class="lead  text-white">A boilterplate that lets you get started on developing Vue applications. It includes <strong>vuex</strong> for state management, <strong>axios</strong> for HTTP client request, <strong>vuelidate</strong> for forms and validations, <strong>jest and vue test utils</strong> for unit testing, authentication and route guards, and many more!</p>
                 <div class="btn-wrapper">
                   <a href="" class="btn btn-warning btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="ni ni-spaceship"></i></span>
-                    <span class="btn-inner--text">Get Started</span>
+                    <span class="btn-inner--text">Live Demo</span>
                   </a>
                   <a href="" class="btn btn-white btn-icon mb-3 mb-sm-0">
                     <span class="btn-inner--icon"><i class="ni ni-collection"></i></span>
