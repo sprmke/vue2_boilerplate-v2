@@ -13,12 +13,12 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "MainView",
       component: MainView,
       meta: {title: rootTitle},
       children: [
         {
           path: '/',
+          name: "Home Container",
           component: HomeContainer,
           meta: {title: rootTitle},
         }

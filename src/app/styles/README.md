@@ -14,6 +14,8 @@ ex. 'base' directory > ___base.scss
 
 Directory details:
 1. base
+- heads up when you are going to use any third party theme styles, it may conflict your base styles
+- you can also modify the default base styles depends on what you want
 - must only contain base styles of our application
 2. helpers
 - must only contain helper classes, reusable sass global values and functions

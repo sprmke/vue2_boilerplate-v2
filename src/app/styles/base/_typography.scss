@@ -1,29 +1,28 @@
-// @import './colors';
+@import './colors';
 
-// // Global Font
-// @import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700');
-// @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic');
+// Global Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
-// // All
-// h1, h2, h3, h4, h5, h6,
-// p, span, a, label, strong,
-// input, textarea, small {
-//     font-family: 'Arial', sans-serif;
-// }
+// All
+h1, h2, h3, h4, h5, h6,
+p, span, a, label, strong,
+input, textarea, small {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
 
-// // Headings
-// h1, h2, h3, h4, h5, h6 {
-// }
+// Headings
+h1, h2, h3, h4, h5, h6 {
+}
 
-// // Paragraphs
-// p {
-// }
+// Paragraphs
+p {
+}
 
-// // Links
-// a,
-// a:link,
-// a:visited,
-// a:active {
-// }
-// a:hover {
-// }
+// Links
+a,
+a:link,
+a:visited,
+a:active {
+}
+a:hover {
+}

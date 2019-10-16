@@ -26,7 +26,7 @@
           </div>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item d-none d-lg-block ml-lg-4">
-              <a href="https://www.creative-tim.com/product/argon-design-system" target="_blank" class="btn btn-neutral btn-icon">
+              <a href="https://github.com/sprmke/vue-boilerplate" target="_blank" class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon mr-1">
                   <i class="fa fa-github"></i>
                 </span>
