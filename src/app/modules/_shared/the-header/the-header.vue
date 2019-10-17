@@ -1,5 +1,5 @@
 <template>
-  <header class="the-header header-global">
+  <header class="the-header">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
       <div class="container">
         <a class="navbar-brand mr-lg-5" href="../index.html">
