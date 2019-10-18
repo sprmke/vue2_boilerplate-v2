@@ -16,16 +16,16 @@
         <div class="row">
           <div class="col-lg-8">
             <h1 class="display-3 text-white">Develop Vue apps faster!</h1>
-            <p class="lead text-white"><span class="d-block">A boilterplate that lets you get started on developing Vue applications.</span> It includes <strong>vuex</strong> for state management, <strong>axios</strong> for HTTP client request, <strong>vuelidate</strong> for forms and validations, <strong>jest and vue test utils</strong> for unit testing, authentication and route guards, and many more!</p>
+            <p class="lead text-white"><span class="d-block">A boilerplate that lets you get started on developing Vue applications.</span> It includes <strong>vuex</strong> for state management, <strong>axios</strong> for HTTP client request, <strong>vuelidate</strong> for forms and validations, <strong>jest and vue test utils</strong> for unit testing, authentication and route guards, and many more!</p>
             <div class="btn-wrapper">
-              <a href="" class="btn btn-warning btn-icon mb-3 mb-sm-0">
+              <router-link to="/login" class="btn btn-warning btn-icon mb-3 mb-sm-0">
                 <span class="btn-inner--icon"><i class="ni ni-spaceship"></i></span>
                 <span class="btn-inner--text">Live Demo</span>
-              </a>
-              <a href="" class="btn btn-white btn-icon mb-3 mb-sm-0"> 
+              </router-link>
+              <router-link to="/docs" class="btn btn-white btn-icon mb-3 mb-sm-0"> 
                 <span class="btn-inner--icon"><i class="ni ni-collection"></i></span>
                 <span class="btn-inner--text">Documentation</span>
-              </a>
+              </router-link>
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 // @import '@/app/styles/helpers/_colors.scss';
 // @import '@/app/styles/helpers/mixins';
 
-.the-footer {
-  background-color: #47597c;
+.profile-container {
+  .profile-name {
+    margin-top: 9.5rem;
+  }
 }

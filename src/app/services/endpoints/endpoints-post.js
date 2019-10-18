@@ -1,3 +1,3 @@
-export const POST_ENDPOINTS = {
+export const ENDPOINTS_POST = {
   // POST_SAMPLE_ENDPOINT: '/sample/enpoint'
 }

@@ -7,9 +7,6 @@ module.exports = {
 		},
 		plugins: [
 			new webpack.DefinePlugin({
-				envVars: {
-					BASE_URL: JSON.stringify(process.env.BASE_URL ? process.env.BASE_URL : '')
-				}
 			})
 		],
 	}

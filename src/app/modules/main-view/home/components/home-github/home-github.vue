@@ -5,7 +5,7 @@
         <div class="p-5">
           <div class="row align-items-center">
             <div class="col-lg-8">
-              <h3 class="text-white">Made building Vue apps easier for you.</h3>
+              <h4 class="text-white">Made building Vue apps easier for you.</h4>
               <p class="text-white mt-3">Now you can focus more on developing your application without having to plan and code your project structure from scratch.</p>
             </div>
             <div class="col-lg-3 ml-lg-auto">

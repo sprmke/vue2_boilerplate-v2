@@ -1,3 +1,3 @@
-export const PUT_ENDPOINTS = {
+export const ENDPOINTS_PUT = {
   // PUT_SAMPLE_ENDPOINT: '/sample/enpoint'
 }
