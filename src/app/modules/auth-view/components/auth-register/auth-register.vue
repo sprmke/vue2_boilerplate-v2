@@ -4,7 +4,7 @@
       <div class="text-center text-muted mb-4">
         <p class="font-weight-bold">Register Account</p>
       </div>
-      <form @submit.prevent="onRegister">
+      <form @submit.prevent="onSignUp">
         <div class="form-group">
           <div class="input-group input-group-alternative mb-3">
             <div class="input-group-prepend">
@@ -38,7 +38,12 @@
           </div>
         </div>
         <div class="text-center">
-          <button type="submit" class="btn btn-primary mt-4">Create account</button>
+          <button type="submit" :class="{'disabled': isSubmitted}" class="btn btn-primary mt-4">Create account</button>
+        </div>
+        <!-- auth message -->
+        <div v-if="authStatus.status !== null" :class="authStatus.status === 'failed' ? 'alert-danger' : 'alert-success'" class="mt-4 d-flex align-items-center alert alert-dismissible fade show" role="alert">
+          <span class="alert-inner--icon"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></span>
+          <span class="alert-inner--text">{{authStatus.message}}</span>
         </div>
       </form>
     </div>

@@ -5,18 +5,28 @@ export default {
       name: '',
       email: '',
       password: '',
-      confirmPassword: ''
+      isSubmitted: false
+    }
+  },
+  computed: {
+    authStatus() {
+      const authStatus = this.$store.getters.getAuthStatus;
+      // reset submitted status if auth response status is failed
+      if (authStatus.status === 'failed') {
+        this.isSubmitted = false;
+      }
+      return authStatus;
     }
   },
   methods: {
-    onRegister() {
-      const formData = {
+    onSignUp() {
+      this.isSubmitted = true;
+      this.$store.dispatch('authenticateUser', {
         name: this.name,
         email: this.email,
-        password: this.password
-      }
-      console.log(formData)
-      this.$store.dispatch('register', formData)
+        password: this.password,
+        isLogin: false
+      });
     }
   },
 }

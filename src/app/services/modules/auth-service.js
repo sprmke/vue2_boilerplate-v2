@@ -23,5 +23,6 @@ export const AUTH = {
 
 // API Endpoints
 export const AUTH_ENDPOINTS = {
-  POST_USERS: '/users'
+  POST_SIGN_UP: ':signUp',
+  POST_SIGN_IN: ':signInWithPassword'
 }

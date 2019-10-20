@@ -33,7 +33,7 @@
               <div class="row justify-content-center">
                 <div class="col-lg-9">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda voluptatibus odio labore quas aspernatur facilis possimus repellat fuga similique beatae necessitatibus sint consequatur quisquam soluta facere natus, commodi consectetur?</p>
-                  <button type="button" class="btn btn-primary my-4" @click="signIn">Log out</button>
+                  <button type="button" class="btn btn-primary my-4" @click="onLogout">Log out</button>
                 </div>
               </div>
             </div>

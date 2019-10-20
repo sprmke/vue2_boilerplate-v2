@@ -3,17 +3,28 @@ export default {
   data() {
     return {
       email: '',
-      password: ''
+      password: '',
+      isSubmitted: false
+    }
+  },
+  computed: {
+    authStatus() {
+      const authStatus = this.$store.getters.getAuthStatus;
+      // reset submitted status if auth response status is failed
+      if (authStatus.status === 'failed') {
+        this.isSubmitted = false;
+      }
+      return authStatus;
     }
   },
   methods: {
-    onLogin () {
-      const formData = {
+    onSignIn () {
+      this.isSubmitted = true;
+      this.$store.dispatch('authenticateUser', {
         email: this.email,
         password: this.password,
-      };
-      console.log(formData)
-      this.$store.dispatch('login', formData)
+        isLogin: true
+      })
     }
   },
 }

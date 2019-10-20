@@ -11,6 +11,8 @@ import ProfileContainer from '@/app/modules/main-view/profile/containers/profile
 // Error
 import ErrorView from '@/app/modules/error-view/error-view.vue';
 
+import store from '@/app/stores/store';
+
 Vue.use(Router);
 const rootTitle = 'Vue Boilerplate';
 
@@ -34,6 +36,14 @@ export default new Router({
           name: "Profile Container",
           component: ProfileContainer,
           meta: {title: `${rootTitle} - Profile`},
+          beforeEnter (to, from, next) {
+            // redirect user to login if not authenticated
+            if (store.state.authUser.token) {
+              next();
+            } else {
+              next('/login');
+            }
+          }
         },
       ]
     },
