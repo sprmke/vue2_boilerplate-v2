@@ -26,7 +26,7 @@
               </div>
             </div>
             <div class="profile-name text-center">
-              <h3>Edsel David</h3>
+              <h3>Jingle Bells</h3>
               <div class="h6 text-danger"><i class="ni location_pin mr-2"></i>You are authenticated!</div>
             </div>
             <div class="mt-3 py-5 border-top text-center">
