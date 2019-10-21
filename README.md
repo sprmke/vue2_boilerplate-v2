@@ -30,5 +30,10 @@ npm run lint
 npm run test:unit
 ```
 
+### Generate new multi-file component
+```
+npm run template <component-name>
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
