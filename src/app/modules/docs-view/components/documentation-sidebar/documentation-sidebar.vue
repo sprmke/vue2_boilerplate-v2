@@ -20,7 +20,8 @@
           <li>
             <router-link to="/docs/root">Root</router-link></li>
           <li>
-            <router-link to="/docs/app">App</router-link></li>
+            <router-link to="/docs/app">App</router-link>
+          </li>
           <li>
             <router-link to="/docs/modules">Modules</router-link></li>
           <li>

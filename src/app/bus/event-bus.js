@@ -8,3 +8,8 @@ export const EventBus = new Vue({
   methods: {
   }
 })
+
+
+
+
+

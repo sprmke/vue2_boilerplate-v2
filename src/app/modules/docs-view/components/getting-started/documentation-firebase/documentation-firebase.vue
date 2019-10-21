@@ -1,6 +1,6 @@
 <template>
   <div class="documentation-firebase">
-    
+    <p class="text-danger">This page still a work in progress!</p>
   </div>
 </template>
 

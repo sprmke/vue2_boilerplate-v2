@@ -11,3 +11,5 @@ export const FILE_TYPE_ICON_LIST = {
   JPEG: 'fa fa-file-image-o',
   PNG: 'fa fa-file-image-o'
 }
+
+

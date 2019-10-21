@@ -104,20 +104,28 @@
   display: block
 }
 
-.ct-sidebar .nav>li>a {
+.ct-sidebar .nav li {
+  list-style-type: none;
+}
+
+.ct-sidebar .nav li a {
   font-size: 84%;
   display: block;
   padding: .25rem 1.5rem;
-  color: #4c555a
+  color: #4c555a;
 }
 
-.ct-sidebar .nav>li>a:hover {
+.ct-sidebar .nav > li ul li a {
+  padding: .25rem 0.5rem;
+}
+
+.ct-sidebar .nav li a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, .85);
   background-color: transparent
 }
 
-.ct-sidebar .nav>li>a.router-link-exact-active.router-link-active {
+.ct-sidebar .nav li a.router-link-exact-active.router-link-active {
   font-weight: 500;
   position: relative;
   padding-left: 2rem;
@@ -125,7 +133,7 @@
   background-color: transparent
 }
 
-.ct-sidebar .nav>li>a.router-link-exact-active.router-link-active:before {
+.ct-sidebar .nav li a.router-link-exact-active.router-link-active:before {
   position: absolute;
   top: 50%;
   left: 1.5rem;
@@ -136,7 +144,7 @@
   background-color: #1f955f
 }
 
-.ct-sidebar .nav>li>a.router-link-exact-active.router-link-active:hover {
+.ct-sidebar .nav li a.router-link-exact-active.router-link-active:hover {
   color: #1f955f
 }
 
