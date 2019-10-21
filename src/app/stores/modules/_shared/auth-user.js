@@ -101,9 +101,7 @@ const authUser = {
         console.log('storeUser POST_USERS res::', res);
         
         // redirect to profile page if new user is successfully registered
-        setTimeout(() => {
-          router.push('/profile');
-        }, 1000);
+        router.push('/profile');
       })
       .catch(err => {
         console.log('storeUser POST_USERS err::', err);

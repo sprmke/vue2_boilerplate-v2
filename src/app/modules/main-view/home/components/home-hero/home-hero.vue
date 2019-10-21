@@ -22,7 +22,7 @@
                 <span class="btn-inner--icon"><i class="ni ni-spaceship"></i></span>
                 <span class="btn-inner--text">Live Demo</span>
               </router-link>
-              <router-link to="/docs" class="btn btn-white btn-icon mb-3 mb-sm-0"> 
+              <router-link to="/docs/overview" class="btn btn-white btn-icon mb-3 mb-sm-0"> 
                 <span class="btn-inner--icon"><i class="ni ni-collection"></i></span>
                 <span class="btn-inner--text">Documentation</span>
               </router-link>
