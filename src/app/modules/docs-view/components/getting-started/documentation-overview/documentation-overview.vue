@@ -42,7 +42,7 @@
     <!-- Installation -->
     <section class="mb-5">
       <h4>Installation</h4>
-      <p>Please check every modules to be more familiarized to the features, processes and coding practices of this application.</p>
+      <p>Npm available commands to execute different tasks for this boilerplate application.</p>
       <img style="width: 60%" class="img-fluid" src="@/assets/docs/gettings-started/installation.png" alt="Installation">
     </section>
   </div>
