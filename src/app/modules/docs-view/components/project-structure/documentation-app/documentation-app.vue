@@ -13,6 +13,7 @@
               <li>This is the application root vue component. The root container where registered   page components has been rendered depending on the active route.</li>
             </ul>
           </li>
+          <hr>
           <li><strong>bus</strong>
             <ul>
               <li>This directory contains the applcation event bus.</li>
@@ -43,6 +44,7 @@
               </li>
             </ul>
           </li>
+          <hr>
           <li><strong>configs</strong>
             <ul>
               <li>This directory contains all application config related files.</li>
@@ -53,6 +55,7 @@
               </li>
             </ul>
           </li>
+          <hr>
           <li><strong>constants</strong>
             <ul>
               <li>This directory contains the global application constants.</li>
@@ -66,6 +69,7 @@
               </li>
             </ul>
           </li>
+          <hr>
           <li><strong>directives</strong>
             <ul>
               <li>This directory contains the global application custom directives.</li>
@@ -95,6 +99,7 @@
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>filters</strong>
             <ul>
               <li>This directory contains the global application custom filters.</li>
@@ -120,6 +125,7 @@ Example: Convert timestamp into readable date format.</li>
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>mixins</strong>
             <ul>
               <li>This directory contains all the application custom mixins.</li>
@@ -150,6 +156,7 @@ Example: Convert timestamp into readable date format.</li>
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>modules</strong>
             <ul>
               <li>This directory contain the application modules and sub modules that contains the application vue components.</li>
@@ -176,6 +183,7 @@ Example: Convert timestamp into readable date format.</li>
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>services</strong>
             <ul>
               <li>This directory contains all API related files.</li>
@@ -195,6 +203,7 @@ Example: Convert timestamp into readable date format.</li>
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>static</strong>
             <ul>
               <li>This directory contains all the applcation static JS and JSON files.</li>
@@ -214,6 +223,7 @@ Example: Convert timestamp into readable date format.</li>
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>stores</strong>
             <ul>
               <li>This directory contains all store/state management related files.</li>
@@ -233,6 +243,7 @@ Example: Convert timestamp into readable date format.</li>
               </li>
             </ul> 
           </li>
+          <hr>
           <li><strong>styles</strong>
             <ul>
               <li>This directory contains all global applicatiotn css/scss related styles.</li>
@@ -240,6 +251,7 @@ Example: Convert timestamp into readable date format.</li>
               <img style="width: 30%" class="img-fluid" src="@/assets/docs/project-structure/app-styles.png" alt="App - Modules">
             </ul> 
           </li>
+          <hr>
           <li><strong>tests</strong>
             <ul>
               <li>This directory contains all test realated files (unit, end-to-end, etc).</li>

@@ -39,6 +39,7 @@
         </li>
       </ul>
     </section>
+    <hr>
     <!-- Installation -->
     <section class="mb-5">
       <h4>Installation</h4>
