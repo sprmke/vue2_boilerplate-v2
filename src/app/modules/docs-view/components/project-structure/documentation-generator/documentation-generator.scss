@@ -1,2 +1,14 @@
 // @import '@/app/styles/helpers/_colors.scss';
 // @import '@/app/styles/helpers/mixins';
+
+.documentation-generator {
+  .how-to-use {
+    ul {
+      padding-left: 0;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 <template>
   <div class="documentation-app">
-    <p>This page explain the app modules and files function, how to organize and important notes on using and maintaining their content and where you can study more about each module.</p>
+    <p>This page explains the app modules and files function, how to organize and important notes on using and maintaining their content and where you can study more about each module.</p>
     <hr>
     <div class="row mb-5">
       <div class="col-md-3">
