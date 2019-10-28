@@ -1,6 +1,6 @@
 <template>
   <div class="documentation-root">
-    <p class="text-danger">This page still a work in progress!</p>
+    <p>This page explains the application root files functions and how to work on each of them.</p>
     <hr>
     <div class="row">
       <div class="col-md-3">
@@ -10,62 +10,62 @@
         <ul>
           <li><strong>node_modules</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur nulla odit ut nisi laborum quas rem voluptate vel fugiat nemo provident mollitia, doloribus minima ex enim architecto corrupti! Nisi.</li>
+              <li>Contains all the node packages of your application which are included on the package.json file.</li>
             </ul>
           </li>
           <li><strong>public</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius, laboriosam neque iusto quibusdam cupiditate modi nobis fugit recusandae natus soluta labore inventore molestias voluptate totam corporis enim ex quaerat.</li>
+              <li>Contains the index.html, static assets and other configuration files which are not handled by webpack and will be used on generation of the application upon build.</li>
             </ul>
           </li>
           <li><strong>src</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit totam tenetur, deserunt provident repudiandae voluptas nobis, inventore unde eligendi amet rem repellat commodi nam. Fuga ullam corporis voluptate dolore ut.</li>
+              <li>Contains the central code and business logic of the application.</li>
             </ul> 
           </li>
-          <li><strong>browserslistrc</strong>
+          <li><strong>.browserslistrc</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit totam tenetur, deserunt provident repudiandae voluptas nobis, inventore unde eligendi amet rem repellat commodi nam. Fuga ullam corporis voluptate dolore ut.</li>
+              <li>A configuration file to share target browsers between different front-end tools. <a href="https://www.npmjs.com/package/browserslist" target="_blank">Learn more</a></li>
             </ul> 
           </li>
           <li><strong>environment variables</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, natus suscipit eius dolores facere eum tempore doloremque, vel distinctio, commodi necessitatibus ducimus pariatur porro. Ipsum, maxime rem. Ullam, aliquam minima!</li>
+              <li>Contains the application environment variables that can be accessible across the application. <a href="https://cli.vuejs.org/guide/mode-and-env.html" target="_blank">Learn more</a></li>
             </ul> 
           </li>
           <li><strong>.eslintrc</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.</li>
             </ul> 
           </li>
           <li><strong>.gitignore</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>Allows you to ignore files, such as editor backup files, build products or local configuration overrides that you never want to commit into a repository.</li>
             </ul> 
           </li>
           <li><strong>babel.config.js</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>A Babel configuration file that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.</li>
             </ul> 
           </li>
           <li><strong>jest.config.js</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>A Jest configuration file which tells how to handle all jest and unit test related files accross the application.</li>
             </ul> 
           </li>
           <li><strong>package.json</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>This holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies.</li>
             </ul> 
           </li>
-          <li><strong>postcss.config</strong>
+          <li><strong>postcss.config.js</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>A tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more.</li>
             </ul> 
           </li>
           <li><strong>vue.config.js</strong>
             <ul>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum maxime animi tempore autem adipisci modi sit. Cupiditate recusandae perferendis culpa dicta nesciunt aspernatur, vero mollitia autem iste, alias hic?</li>
+              <li>An optional config file that will be automatically loaded by @vue/cli-service if it's present in your project root. This contains all of your application vue configurations which you can also modify webpack configs.</li>
             </ul> 
           </li>
         </ul>

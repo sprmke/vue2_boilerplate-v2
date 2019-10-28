@@ -1,6 +1,7 @@
 <template>
   <div class="documentation-css">
-    
+    <p>This page contains the list of the best coding practices on working with our CSS/SCSS styles.</p>
+    <hr>
   </div>
 </template>
 

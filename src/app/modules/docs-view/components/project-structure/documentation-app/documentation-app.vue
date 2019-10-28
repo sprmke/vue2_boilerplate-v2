@@ -33,7 +33,7 @@
               <li><strong>Important notes:</strong>
                 <ul>
                   <li>It is an alternative approach on using Vuex store specially for simple/straight-forward state mangement.</li>
-                  <li>Be careful on using when emitting with complex logic or big data across components.</li>
+                  <li>But don't use it when emitting with complex logic or big data across components.</li>
                 </ul>
               </li>
               <li><strong>Learn more:</strong>
@@ -164,6 +164,7 @@ Example: Convert timestamp into readable date format.</li>
               <img style="width: 30%" class="img-fluid" src="@/assets/docs/project-structure/app-modules.png" alt="App - Modules">
             </ul> 
           </li>
+          <hr>
           <li><strong>routes</strong>
             <ul>
               <li>This directory contains the application router configuration.</li>
@@ -191,7 +192,7 @@ Example: Convert timestamp into readable date format.</li>
               <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-services.png" alt="App - Vue Axios">
               <li><strong>Important Notes:</strong>
                 <ul>
-                  <li>This application is using axios to make HTTP requests.</li>
+                  <li>This application uses axios to make HTTP requests.</li>
                   <li>You can create new service instance under 'modules' directory.</li>
                   <li>Endpoints can be seperated to different files by HTTP methods.</li>
                 </ul>
@@ -212,7 +213,7 @@ Example: Convert timestamp into readable date format.</li>
               <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-static-2.png" alt="App - Static">
               <li><strong>Important Notes:</strong>
                 <ul>
-                  <li>There are two options you can do to get static data:
+                  <li>There are two options to get static data:
                     <ul>
                       <li><strong>JS directory</strong> - contains js files where each file is a collection of static methods that can returns different data types.</li>
                       <li><strong>JSON directory</strong> - contains JSON files</li>
@@ -231,7 +232,7 @@ Example: Convert timestamp into readable date format.</li>
               <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-store.png" alt="App - Vuex Store">
               <li><strong>Important Notes:</strong>
                 <ul>
-                  <li>This application is using Vuex for state management.</li>
+                  <li>This application uses Vuex for state management.</li>
                   <li>Global store.js configuration must only contain code for importing store modules.</li>
                   <li>Vuex code for each file must be placed and sepereated to different module directory inside 'modules' directory for a cleaner and maintainable code structures. </li>
                 </ul>
@@ -260,10 +261,11 @@ Example: Convert timestamp into readable date format.</li>
               <img style="width: 60%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-tests-3.png" alt="App - Tests">
               <li><strong>Important Notes:</strong>
                 <ul>
-                  <li>This application is using Jest and Vue test utils for unit testing.</li>
+                  <li>This application uses Jest and Vue test utils for unit testing.</li>
+                  <li>Component unit test scripts are placed on their respective component directory and not here.</li>
+                  <li>Module or component mock data must also be stored on their respective directory.</li>
                   <li>Global jest config must be set under config directory.</li>
                   <li>Add only 'global mock data' to test-common-mock-data.js.</li>
-                  <li>Module or component mock data must be stored on their respected directory.</li>
                   <li>You can add new test utils on test-common-utils.js but make sure to add a comment on your new utility.</li>
                 </ul>
               </li>

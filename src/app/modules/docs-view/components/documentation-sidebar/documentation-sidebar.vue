@@ -35,11 +35,11 @@
         <router-link to="" class="ct-toc-link">Coding Standards</router-link>
         <ul class="nav ct-sidenav">
           <li>
+            <router-link to="/docs/vue">Vue</router-link></li>
+          <li>
             <router-link to="/docs/template">Template</router-link></li>
           <li>
             <router-link to="/docs/css">CSS and Styles</router-link></li>
-          <li>
-            <router-link to="/docs/vue">Vue</router-link></li>
           <li>
             <router-link to="/docs/javascript">Javascript</router-link></li>
           <li>
