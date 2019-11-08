@@ -50,7 +50,7 @@
           </li>
           <li><strong>jest.config.js</strong>
             <ul>
-              <li>A Jest configuration file which tells how to handle all jest and unit test related files accross the application.</li>
+              <li>A Jest configuration file which indicates on how to handle all jest and unit test related files accross the application.</li>
             </ul> 
           </li>
           <li><strong>package.json</strong>

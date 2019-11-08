@@ -11,7 +11,7 @@
     <hr>
     <section class="mt-3 mb-5">
       <h4>Recommended</h4>
-      <p>But when you already worked on large vue applications, there are times that you need to break some rules or improve some things to make everything better for the team and for the project. That is why we created some new rules that are based on previous experiences that we think will make working with the application better and make the codebase cleaner and easier to read and understand for every developers.</p>
+      <p>But when you already worked on large vue applications, there are times that you need to break some rules or improve some things to make everything better for the team and for the application. That is why we created some rules that are based on previous experiences that we think will make working with the application better and make the codebase cleaner and easier to read and understand for every developers.</p>
       <div class="mt-5">
         <h5>Multi-file component</h5>
         <p>For a more oganized and flexible codebase, we seperated vue component contents to different files.</p>

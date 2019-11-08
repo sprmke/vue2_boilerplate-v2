@@ -5,7 +5,7 @@
     <hr>
     <section>
       <h4>Global Styles</h4>
-      <p>The global application styles are seperated into different partial SCSS files which are organized to their respective directory. This approach makes the application styles cleaner, more organized and flexible.</p>
+      <p>The global application styles are seperated into different partial SCSS files which are organized in their respective directory. This approach makes the application styles cleaner, more organized and flexible.</p>
       <div class="row">
         <div class="col-md-4">
           <img class="img-fluid" src="@/assets/docs/project-structure/styles-structure.png" alt="Styles - Structure">
@@ -27,7 +27,7 @@
             <li><strong>helpers</strong>
               <ul>
                 <li>This contains all the helpers and SASS utility styles.</li>
-                <li>Note that these styles are imported to the component styles and not on the main.scss.</li>
+                <li><span class="text-warning font-weight-bold">Note:</span> These styles are imported to the component styles and not on the main.scss.</li>
               </ul>
             </li>
             <li><strong>themes</strong>
@@ -38,6 +38,7 @@
             <li><strong>vendors</strong>
               <ul>
                 <li>This directory contains all vendor or third party styles.</li>
+                <li>Please put the vendor styles in a directory to be more organized.</li>
               </ul>
             </li>
           </ul>
@@ -47,7 +48,8 @@
     <hr>
     <section class="mt-4 mb-5">
       <h4>Component Styles</h4>
-      <p>All component style must have <strong>scoped</strong> attribute to its scss styles.</p>
+      <p class="m-0">All component style must have <strong>scoped</strong> attribute to its scss styles.</p>
+      <p>This will make the styles scoped only to its component and will not affect other component or global styles.</p>
       <img style="width: 40%" src="@/assets/docs/project-structure/styles-component.png" alt="Styles - Component">
     </section>
   </div>

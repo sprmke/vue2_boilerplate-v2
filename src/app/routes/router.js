@@ -134,7 +134,7 @@ export default new Router({
           path: 'generator',
           name: "Documentation Generator",
           component: DocumentationGenerator,
-          meta: {title: `${rootTitle} - Generator`},
+          meta: {title: `${rootTitle} - Template Generator`},
         },
         {
           path: 'styles',
