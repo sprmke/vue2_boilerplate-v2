@@ -8,9 +8,9 @@
           <li>
             <router-link to="/docs/overview">Overview</router-link></li>
           <li>
-            <router-link to="/docs/technologies">Technologies</router-link></li>
+            <router-link to="/docs/installation">Installation</router-link></li>
           <li>
-            <router-link to="/docs/firebase">Firebase Auth &amp; Database</router-link></li>
+            <router-link to="/docs/technologies">Technologies</router-link></li>
         </ul>
       </div>
       <!-- Project Structure -->
@@ -25,9 +25,11 @@
           <li>
             <router-link to="/docs/modules">Modules</router-link></li>
           <li>
-            <router-link to="/docs/generator">Template Generator</router-link></li>
-          <li>
             <router-link to="/docs/styles">Styles</router-link></li>
+          <li>
+            <router-link to="/docs/assets">Assets</router-link></li>
+          <li>
+            <router-link to="/docs/generator">Template Generator</router-link></li>
         </ul>
       </div>
       <!-- Code Best Practices -->
@@ -42,8 +44,22 @@
             <router-link to="/docs/css">CSS and Styles</router-link></li>
           <li>
             <router-link to="/docs/javascript">Javascript</router-link></li>
+        </ul>
+      </div>
+      <!-- Third Parties -->
+      <div class="ct-toc-item active">
+        <router-link to="" class="ct-toc-link">Third Parties</router-link>
+        <ul class="nav ct-sidenav">
           <li>
-            <router-link to="/docs/unit-testing">Unit Testing</router-link></li>
+            <router-link to="/docs/vuex">Vuex - State Management</router-link></li>
+          <li>
+            <router-link to="/docs/axios">Axios - HTTP</router-link></li>
+          <li>
+            <router-link to="/docs/vuelidate">Vuelidate - Validation</router-link></li>
+          <li>
+            <router-link to="/docs/unit-testing">Vue Test Utils - Unit Testing</router-link></li>
+          <li>
+            <router-link to="/docs/firebase">Firebase - Auth &amp; Database</router-link></li>
         </ul>
       </div>
     </nav>

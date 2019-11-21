@@ -4,13 +4,13 @@
     <hr>
     <div class="row">
       <div class="col-md-3">
-        <img class="img-fluid" src="@/assets/docs/project-structure/root.png" alt="Root">
+        <img class="img-fluid" src="@/assets/docs/project-structure/root/root.png" alt="Root">
       </div>
       <div class="col-md-9">
         <ul>
           <li><strong>node_modules</strong>
             <ul>
-              <li>Contains all the node packages of your application which are included on the package.json file.</li>
+              <li>Contains all the node packages of your application which are registered on the package.json file.</li>
             </ul>
           </li>
           <li><strong>public</strong>

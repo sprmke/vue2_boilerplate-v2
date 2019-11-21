@@ -4,7 +4,7 @@
     <hr>
     <div class="row mb-5">
       <div class="col-md-3">
-        <img class="img-fluid" src="@/assets/docs/project-structure/app.png" alt="App">
+        <img class="img-fluid" src="@/assets/docs/project-structure/app/app.png" alt="App">
       </div>
       <div class="col-md-9">
         <ul>
@@ -17,8 +17,8 @@
           <li><strong>bus</strong>
             <ul>
               <li>This directory contains the applcation event bus.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-bus-2.png" alt="App - Vue Event Bus">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-bus.png" alt="App - Vue Event Bus">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-bus-2.png" alt="App - Vue Event Bus">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-bus.png" alt="App - Vue Event Bus">
               <li><strong>What?</strong>
                 <ul>
                   <li>Vue event bus are used to emit and listen to events.</li>
@@ -59,8 +59,8 @@
           <li><strong>constants</strong>
             <ul>
               <li>This directory contains the global application constants.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-constants-2.png" alt="App - Vue Event Bus">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-constants.png" alt="App - Vue Event Bus">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-constants-2.png" alt="App - Vue Event Bus">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-constants.png" alt="App - Vue Event Bus">
               <li><strong>Important notes:</strong>
                 <ul>
                   <li>Please do organize each constant files to different modules/features folder for a maintainable code structure.</li>
@@ -73,8 +73,8 @@
           <li><strong>directives</strong>
             <ul>
               <li>This directory contains the global application custom directives.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-directives-2.png" alt="App - Vue Directives">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-directives.png" alt="App - Vue Directives">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-directives-2.png" alt="App - Vue Directives">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-directives.png" alt="App - Vue Directives">
               <li><strong>What:</strong>
                 <ul>
                   <li>Vue directives are some special token in the markup that tells the library to do something to a DOM element.</li>
@@ -103,8 +103,8 @@
           <li><strong>filters</strong>
             <ul>
               <li>This directory contains the global application custom filters.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-filters-2.png" alt="App - Vue Filters">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-filters.png" alt="App - Vue Filters">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-filters-2.png" alt="App - Vue Filters">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-filters.png" alt="App - Vue Filters">
               <li><strong>Function:</strong>
                 <ul>
                   <li>Vue filters are used to apply common text formatting.</li>
@@ -129,8 +129,8 @@ Example: Convert timestamp into readable date format.</li>
           <li><strong>mixins</strong>
             <ul>
               <li>This directory contains all the application custom mixins.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-mixins-2.png" alt="App - Vue Mixins">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-mixins.png" alt="App - Vue Mixins">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-mixins-2.png" alt="App - Vue Mixins">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-mixins.png" alt="App - Vue Mixins">
               <li><strong>What:</strong>
                 <ul>
                   <li>Mixins are a flexible way to distribute reusable functionalities for Vue components.</li>
@@ -161,16 +161,16 @@ Example: Convert timestamp into readable date format.</li>
             <ul>
               <li>This directory contain the application modules and sub modules that contains the application vue components.</li>
               <li>More detailed explanation for this section is on another <router-link to="/docs/modules">module</router-link>.</li>
-              <img style="width: 30%" class="img-fluid" src="@/assets/docs/project-structure/app-modules.png" alt="App - Modules">
+              <img style="width: 30%" class="img-fluid" src="@/assets/docs/project-structure/app/app-modules.png" alt="App - Modules">
             </ul> 
           </li>
           <hr>
           <li><strong>routes</strong>
             <ul>
               <li>This directory contains the application router configuration.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid mb-2" src="@/assets/docs/project-structure/app-routes-3.png" alt="App - Vue Router">
-              <img style="width: 60%" class="d-flex mb-2 img-fluid mb-2" src="@/assets/docs/project-structure/app-routes-2.png" alt="App - Vue Router">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-routes.png" alt="App - Vue Router">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid mb-2" src="@/assets/docs/project-structure/app/app-routes-3.png" alt="App - Vue Router">
+              <img style="width: 60%" class="d-flex mb-2 img-fluid mb-2" src="@/assets/docs/project-structure/app/app-routes-2.png" alt="App - Vue Router">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-routes.png" alt="App - Vue Router">
               <li><strong>Important Notes:</strong>
                 <ul>
                   <li>Please do organize component imports seperated by module name comment.</li>
@@ -188,8 +188,8 @@ Example: Convert timestamp into readable date format.</li>
           <li><strong>services</strong>
             <ul>
               <li>This directory contains all API related files.</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-services-2.png" alt="App - Vue Axios">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-services.png" alt="App - Vue Axios">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-services-2.png" alt="App - Vue Axios">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-services.png" alt="App - Vue Axios">
               <li><strong>Important Notes:</strong>
                 <ul>
                   <li>This application uses axios to make HTTP requests.</li>
@@ -208,9 +208,9 @@ Example: Convert timestamp into readable date format.</li>
           <li><strong>static</strong>
             <ul>
               <li>This directory contains all the applcation static JS and JSON files.</li>
-              <img style="width: 30%" class="d-flex img-fluid mb-2" src="@/assets/docs/project-structure/app-static-3.png" alt="App - Static">
-              <img style="width: 60%" class="d-flex img-fluid mb-2" src="@/assets/docs/project-structure/app-static-1.png" alt="App - Static">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-static-2.png" alt="App - Static">
+              <img style="width: 30%" class="d-flex img-fluid mb-2" src="@/assets/docs/project-structure/app/app-static-3.png" alt="App - Static">
+              <img style="width: 60%" class="d-flex img-fluid mb-2" src="@/assets/docs/project-structure/app/app-static-1.png" alt="App - Static">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-static-2.png" alt="App - Static">
               <li><strong>Important Notes:</strong>
                 <ul>
                   <li>There are two options to get static data:
@@ -228,8 +228,8 @@ Example: Convert timestamp into readable date format.</li>
           <li><strong>stores</strong>
             <ul>
               <li>This directory contains all store/state management related files.</li>
-              <img style="width: 30%" class="d-flex img-fluid mb-2" src="@/assets/docs/project-structure/app-store-2.png" alt="App - Vuex Store">
-              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app-store.png" alt="App - Vuex Store">
+              <img style="width: 30%" class="d-flex img-fluid mb-2" src="@/assets/docs/project-structure/app/app-store-2.png" alt="App - Vuex Store">
+              <img style="width: 60%" class="d-flex img-fluid" src="@/assets/docs/project-structure/app/app-store.png" alt="App - Vuex Store">
               <li><strong>Important Notes:</strong>
                 <ul>
                   <li>This application uses Vuex for state management.</li>
@@ -249,16 +249,16 @@ Example: Convert timestamp into readable date format.</li>
             <ul>
               <li>This directory contains all global applicatiotn css/scss related styles.</li>
               <li>More detailed explanation for this section is on another <router-link to="/docs/styles">module</router-link>.</li>
-              <img style="width: 30%" class="img-fluid" src="@/assets/docs/project-structure/app-styles.png" alt="App - Modules">
+              <img style="width: 30%" class="img-fluid" src="@/assets/docs/project-structure/app/app-styles.png" alt="App - Modules">
             </ul> 
           </li>
           <hr>
           <li><strong>tests</strong>
             <ul>
               <li>This directory contains all test realated files (unit, end-to-end, etc).</li>
-              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-tests.png" alt="App - Tests">
-              <img style="width: 60%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-tests-2.png" alt="App - Tests">
-              <img style="width: 60%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app-tests-3.png" alt="App - Tests">
+              <img style="width: 30%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-tests.png" alt="App - Tests">
+              <img style="width: 60%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-tests-2.png" alt="App - Tests">
+              <img style="width: 60%" class="d-flex mb-2 img-fluid" src="@/assets/docs/project-structure/app/app-tests-3.png" alt="App - Tests">
               <li><strong>Important Notes:</strong>
                 <ul>
                   <li>This application uses Jest and Vue test utils for unit testing.</li>

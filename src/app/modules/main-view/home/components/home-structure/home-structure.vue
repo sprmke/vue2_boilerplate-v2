@@ -4,7 +4,7 @@
       <div class="row row-grid align-items-center">
         <div class="col-md-6 order-lg-2 ml-lg-auto">
           <div class="position-relative pl-md-5">
-            <img src="@/assets/home/project-structure.png" class="img-center img-fluid rounded" alt="image">
+            <img src="@/assets/home/project-structure/project-structure.png" class="img-center img-fluid rounded" alt="image">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">

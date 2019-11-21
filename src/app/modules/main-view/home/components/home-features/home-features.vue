@@ -4,7 +4,7 @@
       <div class="row justify-content-center text-center mb-md">
         <div class="col-lg-8">
           <h2 class="display-4">Awesome Features</h2>
-          <p class="text-muted">Integrated with most popular and best vue core libraries</p>
+          <p class="text-muted">Integrated with the most popular and best vue core libraries</p>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -50,7 +50,7 @@
                   <p class="text-muted m-0"><small>Form Validation</small></p>
                   <p class="description mt-3 flex-1">A simple, lightweight model-based validation for Vue.js. It is a data-model oriented, meaning validation rules are added to a validations object in the component definition.</p>
                   <div>
-                    <a href="https://github.com/vuelidate/vuelidate" target="_blank" class="btn btn-warning mt-2">Learn more</a>
+                    <a href="https://vue-test-utils.vuejs.org" target="_blank" class="btn btn-warning mt-2">Learn more</a>
                   </div>
                 </div>
               </div>

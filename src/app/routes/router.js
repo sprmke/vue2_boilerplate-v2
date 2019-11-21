@@ -12,20 +12,27 @@ import ProfileContainer from '@/app/modules/main-view/profile/containers/profile
 import DocumentationContainer from '@/app/modules/docs-view/containers/documentation-container/documentation-container.vue';
 // gettings started
 import DocumentationOverview from '@/app/modules/docs-view/components/getting-started/documentation-overview/documentation-overview.vue';
+import DocumentationInstallation from '@/app/modules/docs-view/components/getting-started/documentation-installation/documentation-installation.vue';
 import DocumentationTechnologies from '@/app/modules/docs-view/components/getting-started/documentation-technologies/documentation-technologies.vue';
-import DocumentationFirebase from '@/app/modules/docs-view/components/getting-started/documentation-firebase/documentation-firebase.vue';
 // project structure
 import DocumentationRoot from '@/app/modules/docs-view/components/project-structure/documentation-root/documentation-root.vue';
 import DocumentationApp from '@/app/modules/docs-view/components/project-structure/documentation-app/documentation-app.vue';
 import DocumentationModules from '@/app/modules/docs-view/components/project-structure/documentation-modules/documentation-modules.vue';
-import DocumentationGenerator from '@/app/modules/docs-view/components/project-structure/documentation-generator/documentation-generator.vue';
 import DocumentationStyles from '@/app/modules/docs-view/components/project-structure/documentation-styles/documentation-styles.vue';
+import DocumentationAssets from '@/app/modules/docs-view/components/project-structure/documentation-assets/documentation-assets.vue';
+import DocumentationGenerator from '@/app/modules/docs-view/components/project-structure/documentation-generator/documentation-generator.vue';
 // coding standards
 import DocumentationTemplate from '@/app/modules/docs-view/components/coding-standards/documentation-template/documentation-template.vue';
 import DocumentationCSS from '@/app/modules/docs-view/components/coding-standards/documentation-css/documentation-css.vue';
 import DocumentationVue from '@/app/modules/docs-view/components/coding-standards/documentation-vue/documentation-vue.vue';
 import DocumentationJavascript from '@/app/modules/docs-view/components/coding-standards/documentation-javascript/documentation-javascript.vue';
-import DocumentationUnitTesting from '@/app/modules/docs-view/components/coding-standards/documentation-unit-testing/documentation-unit-testing.vue';
+// third parties
+import DocumentationVuex from '@/app/modules/docs-view/components/third-parties/documentation-vuex/documentation-vuex.vue';
+import DocumentationAxios from '@/app/modules/docs-view/components/third-parties/documentation-axios/documentation-axios.vue';
+import DocumentationVuelidate from '@/app/modules/docs-view/components/third-parties/documentation-vuelidate/documentation-vuelidate.vue';
+import DocumentationUnitTesting from '@/app/modules/docs-view/components/third-parties/documentation-unit-testing/documentation-unit-testing.vue';
+import DocumentationFirebase from '@/app/modules/docs-view/components/third-parties/documentation-firebase/documentation-firebase.vue';
+
 // Error
 import ErrorView from '@/app/modules/error-view/error-view.vue';
 
@@ -106,10 +113,10 @@ export default new Router({
           meta: {title: `${rootTitle} - Technologies`},
         },
         {
-          path: 'firebase',
-          name: "Documentation Firebase",
-          component: DocumentationFirebase,
-          meta: {title: `${rootTitle} - Firebase Auth & Database`},
+          path: 'installation',
+          name: "Documentation Installation",
+          component: DocumentationInstallation,
+          meta: {title: `${rootTitle} - Installation`},
         },
         // project structure
         {
@@ -131,16 +138,21 @@ export default new Router({
           meta: {title: `${rootTitle} - Modules`},
         },
         {
-          path: 'generator',
-          name: "Documentation Generator",
-          component: DocumentationGenerator,
-          meta: {title: `${rootTitle} - Template Generator`},
-        },
-        {
           path: 'styles',
           name: "Documentation Styles",
           component: DocumentationStyles,
           meta: {title: `${rootTitle} - Styles`},
+        },
+        {
+          path: 'assets',
+          name: "Documentation Assets",
+          component: DocumentationAssets,
+          meta: {title: `${rootTitle} - Assets`},
+        },{
+          path: 'generator',
+          name: "Documentation Generator",
+          component: DocumentationGenerator,
+          meta: {title: `${rootTitle} - Template Generator`},
         },
         // coding standards
         {
@@ -167,11 +179,36 @@ export default new Router({
           component: DocumentationJavascript,
           meta: {title: `${rootTitle} - Javascript`},
         },
+        // third parties
+        {
+          path: 'vuex',
+          name: "Documentation Vuex",
+          component: DocumentationVuex,
+          meta: {title: `${rootTitle} - Vuex (State Management)`},
+        },
+        {
+          path: 'axios',
+          name: "Documentation Axios",
+          component: DocumentationAxios,
+          meta: {title: `${rootTitle} - Axios (HTTP)`},
+        },
+        {
+          path: 'vuelidate',
+          name: "Documentation Vuelidate",
+          component: DocumentationVuelidate,
+          meta: {title: `${rootTitle} - Vuelidate (Validation)`},
+        },
         {
           path: 'unit-testing',
           name: "Documentation Unit Testing",
           component: DocumentationUnitTesting,
-          meta: {title: `${rootTitle} - Unit Testing`},
+          meta: {title: `${rootTitle} - Vue Test Utils / Jest (Unit Testing)`},
+        },
+        {
+          path: 'firebase',
+          name: "Documentation Firebase",
+          component: DocumentationFirebase,
+          meta: {title: `${rootTitle} - Firebase (Auth & Database)`},
         },
       ]
     },
